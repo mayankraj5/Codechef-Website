@@ -157,7 +157,7 @@ a{
     text-decoration: underline;
 }
 
-.bx{
+.arrbutton{
     font-size: 37px;
     color: white;
     margin-top: 220px;
@@ -185,6 +185,7 @@ a{
     font-size: 50px;
     margin-left: 90px;
     font-family: "Share Tech Mono";
+    text-decoration: underline;
 }
 
 .abouttc{
@@ -230,4 +231,129 @@ a{
     margin-top: 1.5%;
     font-family: "Share Tech Mono";
     padding: 5px;
+}
+
+.schedule-title{
+    height: 100px;
+    width: 100%;
+    /* background-color: green; */
+    float: left;
+    background-color: black;
+}
+
+.schedule-title-text{
+    color: #28a745;
+    font-size: 50px;
+    margin-left: 90px;
+    font-family: "Share Tech Mono";
+    text-decoration: underline;
+    margin-top: 15px;
+    /* background-color: black; */
+    /* background-color: rebeccapurple; */
+}
+
+.schedule-main{
+    height: 490px;
+    width: 100%;
+    float: left;
+    background-color: black;
+    /* background-color: red; */
+}
+
+.regbox{
+    width: 600px;
+    height: 210px;
+    background-color: rgb(22, 26, 22);
+    float: left;
+    margin-left: 130px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-right: -90px;
+    font-family: "Share Tech Mono";
+}
+
+.regb{
+    /* margin-top: -100px; */
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 60px;
+    color: #28a745;
+}
+
+.reg-date{
+    color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.reg-title{
+    color: #28a745;
+    margin-top: 8px;
+    margin-left: 13px;
+}
+
+.reg-text{
+    margin-top: 10px;
+    color: white;
+    margin-left: 13px;
+    font-size:18px;
+}
+
+.footer-main{
+    width: 100%;
+    height: 500px;
+    background-color: aliceblue;
+    float: left;
+    font-family: "Share Tech Mono";
+}
+
+.footer-div{
+    height: 430px;
+    width: 300px;
+    background-color: red;
+    float: left;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.footer-text-1{
+    font-size: 40px;
+    color: #28a745;
+}
+
+.envelope{
+    color: #28a745;
+    font-size: 35px;
+    margin-top: 3px;
+    margin-left: -280px;
+}
+
+.footer-email{
+    float: left;
+    margin-left: 40px;
+    margin-top: 6px;
+    font-size: 20px;
+    /* color: #28a745; */
+}
+
+.footer-text-social{
+    font-size: 30px;
+}
+
+.footer-link-img{
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-left: 2px;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+/* .instagram .github .linkedin .twitter .facebook .medium{
+    color: #28a745;
+} */
+
+.twitter, .github, .instagram, .facebook, .linkedin, .medium{
+    color: #28a745;
 }
