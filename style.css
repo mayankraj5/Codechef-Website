@@ -1,16 +1,3 @@
-@font-face{
-    font-family: "Whitney Light";
-    src: url(./assets/fonts/whitneylight.woff) format("woff");
-}
-@font-face{
-    font-family: "Whitney Medium";
-    src: url(./assets/fonts/whitneymedium.woff) format("woff");
-}
-@font-face{
-    font-family: "Whitney Bold";
-    src: url(./assets/fonts/whitneybold.woff) format("woff");
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -258,6 +245,7 @@ a{
     float: left;
     background-color: black;
     /* background-color: red; */
+    margin-top: -10px;
 }
 
 .regbox{
@@ -301,7 +289,7 @@ a{
 
 .footer-main{
     width: 100%;
-    height: 500px;
+    height: 480px;
     background-color: aliceblue;
     float: left;
     font-family: "Share Tech Mono";
@@ -310,7 +298,7 @@ a{
 .footer-div{
     height: 430px;
     width: 300px;
-    background-color: red;
+    /* background-color: red; */
     float: left;
     margin-left: 150px;
     margin-top: 50px;
@@ -336,7 +324,7 @@ a{
     /* color: #28a745; */
 }
 
-.footer-text-social{
+.footer-text-social, .footer-text-links{
     font-size: 30px;
 }
 
@@ -350,10 +338,30 @@ a{
     margin-right: 40px;
 }
 
-/* .instagram .github .linkedin .twitter .facebook .medium{
-    color: #28a745;
-} */
-
 .twitter, .github, .instagram, .facebook, .linkedin, .medium{
     color: #28a745;
+}
+
+.links-list{
+    font-size: 28px;
+    font-weight: 400;
+    /* margin-left: 50px; */
+    margin-top: 5px;
+}
+
+.links-list-item{
+    margin-top: 10px;
+}
+
+.footer-item-link{
+    color: #28a745;
+}
+
+.final-line{
+    height: 1px;
+    width: 1150px;
+    float: left;
+    background-color: black;
+    margin-left: 170px;
+    margin-top: -80px;
 }
