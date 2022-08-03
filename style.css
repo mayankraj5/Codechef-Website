@@ -1,0 +1,233 @@
+@font-face{
+    font-family: "Whitney Light";
+    src: url(./assets/fonts/whitneylight.woff) format("woff");
+}
+@font-face{
+    font-family: "Whitney Medium";
+    src: url(./assets/fonts/whitneymedium.woff) format("woff");
+}
+@font-face{
+    font-family: "Whitney Bold";
+    src: url(./assets/fonts/whitneybold.woff) format("woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+
+.nav-title{
+    font-size: 35px;
+    height: 40px;
+    width: 200px;
+    /* background-color: red; */
+    margin-left: 10px;
+    margin-top: 20px;
+    float: left;
+    /* color: #2e8953; */
+    color: #28a745;
+    font-family: "Share Tech Mono";
+}
+
+.title-image{
+    float: left;
+    margin-top: 12px;
+    margin-left: 90px;
+    /* background-color: red; */
+}
+
+.nav-list{
+    width: 800px;
+    height: 40px;
+    display: flex;
+    /* float: left; */
+    /* background-color: rebeccapurple; */
+    margin-top: 28px;
+    margin-left: 300px;
+    float: left;
+    font-size: 27px;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+
+.nav-link{
+    margin-right: 50px;
+}
+
+.nav-list a:hover{
+    text-decoration: underline;
+    color: #28a745;
+}
+
+.nav-list a{
+    font-family: "Share Tech Mono";
+}
+
+.mainhalf1{
+    height: 643px;
+    width: 50%;
+    float: left;
+    /* background-color: red; */
+    background-color: black;
+}
+
+.mainhalf2{
+    height: 643px;
+    width: 50%;
+    float: right;
+    /* background-color: blue; */
+    background-color: black;
+    font-family: "Share Tech Mono";
+}
+
+.alanturingimg{
+    width: 530px;
+    height: 530px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.mainp1{
+    font-size: 20px;
+    margin-top: 140px;
+    color: gray;
+}
+
+.maintitle{
+    font-size: 64px;
+    color: white;
+    margin-top: 2%;
+}
+
+.maindesc{
+    color: #28a745;
+    margin-top: 25px;
+}
+
+.regst{
+    font-size: 20px;
+    color: white;
+    margin-top: 3%;
+}
+
+.regbutton{
+    height: 40px;
+    width: 140px;
+    background-color: #28a745;
+    /* margin-left: 20px; */
+    border-radius: 250px;
+    position: absolute;
+    margin-top: 1.5%;
+    text-align: center;   
+}
+
+.register{
+    font-family: "Share Tech Mono";
+    color: white;
+    font-size: 23px;
+    margin-top: 7px;
+}
+
+.regbutton a:hover{
+    text-decoration: underline;
+}
+
+.bx{
+    font-size: 37px;
+    color: white;
+    margin-top: 220px;
+    margin-left: -18px;
+}
+
+.abouthalf1{
+    height: 701px;
+    width: 50%;
+    float: left;
+    /* background-color: red; */
+    background-color: black;
+}
+
+.abouthalf2{
+    height: 701px;
+    width: 50%;
+    float: right;
+    /* background-color: blue; */
+    background-color: black;
+}
+
+.abouttitle{
+    color: #28a745;;
+    font-size: 50px;
+    margin-left: 90px;
+    font-family: "Share Tech Mono";
+}
+
+.abouttc{
+    color: white;
+    font-size: 30px;
+    margin-left: 90px;
+    margin-top: 1.5%;
+    font-family: "Share Tech Mono";
+}
+
+.tcdesc{
+    color: white;
+    font-size: 19px;
+    margin-left: 90px;
+    margin-top: 1.5%;
+    font-family: "Share Tech Mono";
+}
+
+.aboutimgright{
+    height: 300px;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.aboutimgleft{
+    height: 301px;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+.hitw{
+    color: white;
+    margin-left: 70px;  
+    font-size: 30px;
+    font-family: "Share Tech Mono";
+    margin-top: 20px;
+}
+
+.hitwdesc{
+    color: white;
+    font-size: 24px;
+    margin-left: 70px;
+    margin-top: 1.5%;
+    font-family: "Share Tech Mono";
+    padding: 5px;
+}
